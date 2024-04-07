@@ -92,7 +92,7 @@ class Shark extends Fish {
     }
     //non-inherited methods
     public void eat() {
-        System.out.println("The shark ate " + speed/3 + "smaller fish. If it was faster, it could eat more fish.");
+        System.out.println("The shark ate " + speed/3 + " smaller fish. If it was faster, it could eat more fish.");
     }
     public void sensePrey() {
         System.out.println("The shark senses nearby prey.");
@@ -135,10 +135,10 @@ class Hammerhead extends Shark {
     //inherited method
     public void eat() {
         if(super.getSpeed() <= 12) {
-            System.out.println("The shark ate " + super.getSpeed()/3 + "smaller fish. If it was faster, it could eat more fish.");
+            System.out.println("The shark ate " + super.getSpeed()/3 + " smaller fish. If it was faster, it could eat more fish.");
         }
         else {
-            System.out.println("The shark ate " + super.getSpeed()/3 + "smaller fish. If it was faster, it could eat more fish.");
+            System.out.println("The shark ate " + super.getSpeed()/3 + " smaller fish. If it was faster, it could eat more fish.");
             System.out.println("Because the hammerhead is fast, no other shark got to any of its food.");
         }
     }
