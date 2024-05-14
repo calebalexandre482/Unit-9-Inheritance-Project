@@ -191,5 +191,10 @@ class Tester {
         Fish fish8 = new Hammerhead("Jonah", "red", 7, 14, 700);
         Fish fish9 = new Hammerhead();
         Fish fish10 = new Hammerhead(14, 200);
+        System.out.println(fish2);
+        System.out.println(fish3);
+        System.out.println(fish4);
+        System.out.println(fish7);
+        System.out.println(fish8);
     }
 }
